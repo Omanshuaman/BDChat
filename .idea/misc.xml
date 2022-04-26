@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/omans/AndroidStudioProjects/BDChat/app/src/main/res/layout/activity_sign_in.xml" value="0.19882246376811594" />
+        <entry key="..\:/Users/omans/AndroidStudioProjects/BDChat/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/omans/AndroidStudioProjects/BDChat/app/src/main/res/layout/activity_sign_in.xml" value="0.16799999999999998" />
         <entry key="..\:/Users/omans/AndroidStudioProjects/BDChat/app/src/main/res/layout/activity_sign_up.xml" value="0.16" />
       </map>
     </option>
