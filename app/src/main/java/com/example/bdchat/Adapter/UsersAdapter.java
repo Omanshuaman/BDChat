@@ -1,6 +1,7 @@
 package com.example.bdchat.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.bdchat.ChatDetailActivity;
 import com.example.bdchat.Models.Users;
 import com.example.bdchat.R;
 import com.squareup.picasso.Picasso;
@@ -39,6 +41,17 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.ViewHolder> 
         Users users = list.get(position);
         Picasso.get().load(users.getProfilePic()).placeholder(R.drawable.avatar3).into(holder.image);
         holder.userName.setText(users.getUserName());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, ChatDetailActivity.class);
+                intent.putExtra("userId",users.getUserId());
+                intent.putExtra("profilePic",users.getProfilePic());
+                intent.putExtra("userName",users.getUserName());
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
