@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "419943724212",
+    "firebase_url": "https://bdchatvideo-default-rtdb.firebaseio.com",
+    "project_id": "bdchatvideo",
+    "storage_bucket": "bdchatvideo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419943724212:android:a85e455a6bfe955ccfd3e1",
+        "android_client_info": {
+          "package_name": "com.example.bdchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419943724212-13tera8s3e1qls5qenf7g773gojhg9e4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bdchat",
+            "certificate_hash": "c7ac879b312baacae8714dd127001ef11d731c49"
+          }
+        },
+        {
+          "client_id": "419943724212-8dqsctr65v6aihj2l8d77op8j0erok2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOIgLKQT9Y-FDdDnY_kbmf4Blw1CV0hwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419943724212-8dqsctr65v6aihj2l8d77op8j0erok2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
