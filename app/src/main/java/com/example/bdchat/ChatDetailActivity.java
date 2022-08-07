@@ -35,9 +35,18 @@ public class ChatDetailActivity extends AppCompatActivity {
         binding.userName.setText(userName);
         Picasso.get().load(profilePic).placeholder(R.drawable.avatar).into(binding.profileImage);
 
+<<<<<<< HEAD
         binding.backArrow.setOnClickListener(v -> {
             Intent intent = new Intent(ChatDetailActivity.this, MainActivity.class);
             startActivity(intent);
+=======
+        binding.backArrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ChatDetailActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+>>>>>>> github/master
         });
     }
 

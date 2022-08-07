@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BDChat">
         <activity
+            android:name=".ChatDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
@@ -20,9 +23,7 @@
         </activity>
         <activity
             android:name=".SignUpActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true" />
